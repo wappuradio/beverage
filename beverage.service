@@ -1,0 +1,13 @@
+[Unit]
+Description=Beverage Server
+
+[Service]
+User=wappuradio
+WorkingDirectory=/home/wappuradio/beverage
+ExecStart=/home/wappuradio/beverage/beverage.py
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target
+
