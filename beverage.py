@@ -44,7 +44,7 @@ def kalja():
     return 'OK'
 
 @route('/limu')
-def kalja():
+def limu():
     add_beverage('soda')
     return 'OK'
 
